@@ -1,0 +1,15 @@
+.nav {
+    /*width: 500px;*/
+    display: flex;
+    font-size: 22px;
+    /*flex-wrap: wrap;*/
+}
+.link {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+.link:last-child {
+    margin-right: 0;
+}
