@@ -14,14 +14,19 @@
         background-position: center;
         background-repeat: no-repeat;
 
-
     }
+
     .social:last-child {
         margin-right: 0;
     }
 
     .social:hover {
         transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 410px) {
+    .socialContainer {
+        padding: 5px;
     }
 }
 
