@@ -1,0 +1,40 @@
+@import './src/common/styles/sass/variables';
+
+.projectsBlock {
+  background-color: $bgColor;
+  //border: 2px solid red;
+  width: 100%;
+  padding: 40px;
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1400px;
+    width: 100%;
+    align-items: center;
+    //border: 2px solid red;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    @media screen and (min-width: 980px) {
+      .projects {
+        justify-content: space-evenly;
+      }
+    }
+    @media screen and (min-width: 1430px) {
+      .projects {
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+
+
+

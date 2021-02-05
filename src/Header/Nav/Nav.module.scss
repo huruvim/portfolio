@@ -1,0 +1,30 @@
+@import './src/common/styles/sass/variables.scss';
+
+
+.container {
+    .nav {
+        display: flex;
+        font-size: 22px;
+        .link {
+            text-decoration: none;
+            color: $textColor;
+            margin-right: 30px;
+        }
+        .link:last-child {
+            margin-right: 0;
+        }
+        .link:hover {
+            transform: scale(1.1);
+        }
+    }
+    //@media screen and (min-width: 1000px) {
+    //    .nav {
+    //        display: none;
+    //    }
+    //}
+}
+
+
+
+
+

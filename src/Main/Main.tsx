@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import styleContainer from './../common/styles/Container.module.css'
-import photo_of_me from './../assets/images/photo_of_me.jpg'
+import photo_of_me from './../assets/images/photo_without_bg.png'
 
 export const Main: React.FC = () => {
     return (

@@ -1,0 +1,50 @@
+@import './src/common/styles/sass/variables';
+
+.mainBlock {
+    background-color: $bgColor;
+    width: 100%;
+    //border: 2px solid red;
+    padding: 40px;
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+        width: 100%;
+        padding: 100px 40px;
+        flex-wrap: wrap;
+        //border: 2px solid red;
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 2fr;
+            font-size: 20px;
+            padding: 20px;
+            color: $textColor;
+            font-family: $textFontFamily;
+            font-weight: 300;
+            text-transform: capitalize;
+            line-height: 1.4;
+            letter-spacing: 5px;
+            margin: 0;
+            text-align: center;
+        }
+        .main_photo {
+            display: flex;
+            background-size: cover;
+            width: 350px;
+            height: 400px;
+            .photo {
+                height: 100%;
+                width: 100%;
+                min-width: 300px;
+                min-height: 400px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+

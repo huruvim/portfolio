@@ -1,0 +1,38 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+
+.skill {
+    width: 400px;
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //border: 2px solid red;
+    margin-top: 30px;
+
+    .img {
+        height: 60px;
+        width: 60px;
+        //border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .textContainer {
+        width: 100%;
+        padding: 25px 20px;
+        background-color: $bgColor;
+        .skillTitle {
+            @include text($titleFontFamily, 16px, 1.2, center);
+            margin-bottom: 15px;
+        }
+        .description {
+            @include text($textFontFamily, 14px, 1.8, left);
+            font-weight: 400;
+        }
+    }
+}

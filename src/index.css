@@ -17,3 +17,13 @@ code {
   margin: 0;
   padding: 0;
 }
+
+h2 {
+  font-size: 36px;
+  margin: 0 0 30px;
+}
+h3 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 0 0 5px;
+}

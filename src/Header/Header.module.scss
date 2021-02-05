@@ -1,0 +1,19 @@
+@import './src/common/styles/sass/variables';
+
+.background {
+    height: 80px;
+    background-color: $bgLayerColor;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    .content {
+        max-width: 1400px;
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

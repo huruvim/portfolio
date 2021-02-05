@@ -1,0 +1,20 @@
+@import './src/common/styles/sass/variables';
+
+
+@mixin text( $fontFamily, $fontSize, $lineHeight, $textAlign) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  text-align: $textAlign;
+  color: $textColor;
+}
+@mixin inputFor($backgroundColor) {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #4a4a4a;
+  border-radius: 0;
+  color: $textColor;
+  background-color: $backgroundColor;
+}

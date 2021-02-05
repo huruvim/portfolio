@@ -1,0 +1,33 @@
+@import './src/common/styles/sass/variables';
+
+.jobOfferBlock {
+    background-color: $bgLayerColor ;
+    width: 100%;
+    padding: 40px;
+    //border: 2px solid blue;
+    .jobOfferContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 1400px;
+        width: 100%;
+        //border: 2px solid blue;
+        .hireMe {
+            text-align: center;
+            margin-top: 60px;
+            .hireMeButton {
+                width: 160px;
+                height: 40px;
+                font-size: 24px;
+                color: black;
+                font-family: $textFontFamily;
+                background-color: $buttonColor;
+                &:active {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+
