@@ -4,15 +4,16 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 20px;
+    margin: 10px;
     .social {
         width: 60px;
-        height: 40px;
-        border-radius: 100px;
+        height: 60px;
+        border-radius: 50%;
         margin-right: 30px;
-        background-size: cover;
-        background-position: center;
+        background-size: 120%;
+        background-position: 50%;
         background-repeat: no-repeat;
+        transition: all .2s ease-in-out;
 
     }
 
@@ -26,7 +27,7 @@
 }
 @media screen and (max-width: 410px) {
     .socialContainer {
-        padding: 5px;
+        margin: 5px;
     }
 }
 

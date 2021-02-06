@@ -48,9 +48,9 @@
                 width: 160px;
                 height: 40px;
                 font-size: 24px;
-                color: black;
+                color: $textColor;
                 font-family: $textFontFamily;
-                background-color: $buttonColor;
+                background-color: $primaryColor;
                 &:active {
                     transform: scale(1.1);
                 }

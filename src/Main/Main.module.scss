@@ -38,10 +38,8 @@
         .main_photo {
             display: flex;
             background-size: cover;
-            width: 350px;
-            height: 400px;
             .photo {
-                height: 100%;
+                //height: 100%;
                 width: 100%;
                 min-width: 300px;
                 min-height: 400px;

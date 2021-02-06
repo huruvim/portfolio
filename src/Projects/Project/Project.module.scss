@@ -27,11 +27,11 @@
     .checkButton {
       width: 100px;
       height: 40px;
-      font-size: 20px;
-      opacity: 0.7;
-      color: black;
+      font-size: 14px;
+      //opacity: 0.7;
+      color: $textColor;
       font-family: $textFontFamily;
-      background-color: $buttonColor;
+      background-color: $primaryColor;
 
       &:hover {
         opacity: 1;
